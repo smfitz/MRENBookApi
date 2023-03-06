@@ -33,15 +33,13 @@ const LoginForm = () => {
       });
 
       if (!response.ok) {
-        throw new Error('something went wrong!');
+        throw new Error('an internal error occoured!');
       }
 
       const { token, user } = await response.json();
       console.log(user);
       Auth.login(token);
 
-      // This adds uniqe login token to each user data within local stoarage
-      Auth.login(data.login.token);
     } catch (err) {
       console.error(err);
       setShowAlert(true);
