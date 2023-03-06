@@ -1,17 +1,5 @@
 > For this project I tweaked and modified the code of an existing RESTful API-based search engine. This version uses a GraphQL API built with an Apollo Server. This app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. While the revamped application has the same functionality of fetching book and user data, the GraphQL API solves the issue of having to make redundant requests to said API. <br><br>
 
-![JavaScript][js-url]
-![HTML][html-url]
-![CSS][css-url]
-![Mongo][mongo-url]
-![Express][express-url]
-![React][react-url]
-![Node][node-url]
-![jswt][jswtoken-url]
-![Apollo-GraphQL][apollo-url]
-![GraphQL][graphql-url]
-![Heroku][heroku-url]
-
 
 ## Installation
 
@@ -39,9 +27,9 @@ Browse for books by title or author using the search bar on the main page. You m
 
 ## Deployed Application
 You can view the live application
-[here](https://.herokuapp.com/)
+[here](https://bookmrenapp.herokuapp.com/)
 
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the MIT license. 
 
 
